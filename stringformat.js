@@ -24,7 +24,7 @@
  angular.module('angular-nsv-stringformat',[])
 	.filter('paragraphs', function paragraphsFilterProvider () {
 		return function paragraphsFilter ($input) {
-      return angular.isString($input) ? '<p>'+ $input.replace(/\n\n+/gm , '</p><p>') + '</p>': '';
+			return angular.isString($input) ? '<p>'+ $input.replace(/\n\n+/gm , '</p><p>') + '</p>': '';
 		};
 	})
 	.filter('newlines', function newlinesFilterProvider () {
@@ -67,7 +67,7 @@
 		};
 	})
 	.filter('trustAsHtml', ['$sce', function trustAsHtmlFilterProvider ($sce) {
-	  return function trustAsHtmlFilter ($input) {
-	    return $sce.trustAsHtml($input);
-	  }
+		return function trustAsHtmlFilter ($input) {
+			return $sce.trustAsHtml($input);
+		}
 	}]);
