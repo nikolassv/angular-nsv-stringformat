@@ -1,5 +1,11 @@
-# angular-nsv-stringformat
-## simple string filters for angular
+# angular-nsv-stringformat - simple string filters for angular
+## Installation
+
+Download `stringformat.js`, clone this github repository or install via bower:
+
+	bower install angular-nsv-stringformat --save
+
+## About
 
 This module defines several filters for angular.js that may be used with strings. It contains two special filters to ensure the other filters work fine:
 
