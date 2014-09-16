@@ -1,0 +1,22 @@
+{
+  "name": "angular-nsv-stringformat",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nikolassv/angular-nsv-stringformat",
+  "authors": [
+    "Nikolas Schmidt-Voigt <nikolas.schmidt-voigt@posteo.de>"
+  ],
+  "description": "simple string filters for angular",
+  "main": "stringformat.js",
+  "keywords": [
+    "angular",
+    "filter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
